@@ -29,7 +29,7 @@ const SearchInput = () => {
 				<input
 					type='text'
 					placeholder='Search or start new chat'
-					className='search-input bg-gray-700'
+					className='search-input bg-gray-800/50 py-3 px-4 w-full focus:outline-none focus:border-blue-500 border-gray-700'
 					value={search}
 					onChange={(e) => setSearch(e.target.value)}
 				/>
