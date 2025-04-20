@@ -32,7 +32,7 @@ const MessageContainer = () => {
 				<NoChatSelected />
 			) : (
 				<>
-					<div className='bg-slate-500 px-4 py-2 mb-2 flex items-center gap-2'>
+					<div className='bg-gray-800 px-6 py-4 flex items-center gap-4 border-b border-gray-700 shadow-lg'>
 						<button 
 							className='md:hidden text-white' 
 							onClick={() => setSelectedConversation(null)}
